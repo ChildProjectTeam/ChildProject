@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div class="wrapper row4">
+<div class="wrapper row4"> 
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_quarter first">
