@@ -19,32 +19,27 @@
 		<jsp:include page="../main/menu.jsp" />
 		<jsp:include page="../main/title.jsp" />
 		<center>
-			<h1>
-				<strong>신체 체크</strong>
-			</h1>
-			<br> <br>
-			<form>
-				<table>
-					<tr>
-						<td>성별 :</td>
-						<td>남</td>
-						<td><input type="radio" value='M' checked></td>
-						<td>여</td>
-						<td><input type="radio" value="F"></td>
-						<td>
-						<td>
-						<td>
-						<td>
-					</tr>
-					<tr>
-						<td>개월수</td>
-						<td colspan="3"><input type="text" width="10%"></td>
-						<td>체중</td>
-						<td colspan="3"><input type="text" width="10%"></td>
-						<td><input type="button" value="계산하기"></td>
-					</tr>
-				</table>
-			</form>
+			<h3>
+				<strong>아기 정보 수정</strong>
+			</h3>
+
+			<table class="table table-hover">
+				<tr>
+					<th class='text-right success' width=20%>아이 이름 *</th>
+					<td><input type='text' name='idx[]' value=''></td>
+				</tr>
+				<tr>
+					<th class='text-right success' width=20%>생년월일</th>
+					<td class='text-left' width=80%><input type='date'
+						name='birthday' size=25 required></td>
+				</tr>
+				<tr class='line'>
+					<th class='text-right success' width=20%>성별</th>
+					<td class='text-left' width=80%>
+					<input type='radio'	name='genderm' value='M' checked>남
+					 <input type='radio' name='genderf' value='F'>여</td>
+				</tr>
+			</table>
 		</center>
 		<jsp:include page="../main/footer.jsp"></jsp:include>
 	</div>

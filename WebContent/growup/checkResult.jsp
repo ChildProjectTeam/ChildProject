@@ -19,32 +19,9 @@
 		<jsp:include page="../main/menu.jsp" />
 		<jsp:include page="../main/title.jsp" />
 		<center>
-			<h1>
-				<strong>신체 체크</strong>
-			</h1>
-			<br> <br>
-			<form>
-				<table>
-					<tr>
-						<td>성별 :</td>
-						<td>남</td>
-						<td><input type="radio" value='M' checked></td>
-						<td>여</td>
-						<td><input type="radio" value="F"></td>
-						<td>
-						<td>
-						<td>
-						<td>
-					</tr>
-					<tr>
-						<td>개월수</td>
-						<td colspan="3"><input type="text" width="10%"></td>
-						<td>체중</td>
-						<td colspan="3"><input type="text" width="10%"></td>
-						<td><input type="button" value="계산하기"></td>
-					</tr>
-				</table>
-			</form>
+			<h1><strong>확인 결과</strong></h1> <br> <br>
+			
+			당신의 아기는 정상(마름,비만) 입니다.
 		</center>
 		<jsp:include page="../main/footer.jsp"></jsp:include>
 	</div>

@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>
-				<strong>풋터</strong>
+	<h1>	
+				<strong>제목 바</strong>
 			</h1>
 </body>
 </html>
