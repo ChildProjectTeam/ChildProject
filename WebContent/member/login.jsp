@@ -1,24 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Insert title here</title>
+<title>Bootstrap Flat Modal Login Modal Form</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
-body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,button,input
-{
-    margin: 0;
-    padding: 0;
-    /* font-family: 'Varela Round', sans-serif; */
-}
+    body {
+		font-family: 'Varela Round', sans-serif;
+	}
 	.modal-login {
 		width: 350px;
 	}
@@ -123,92 +120,13 @@ body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,button,input
 		display: inline-block;
 		margin: 100px auto;
 	}
-
-/* 메뉴 */
-#header{
-    width:1260px;
-    margin:0 auto;
-    height:86px;
-    background-color:black;
-}
-#login{
-	width:1260px;
-	height:30px;
-	background-color:yellow;
-}
-#login > ul{
-	width:230px;
-	height:100%;
-	float:right;
-	margin: 0px 208px 0 0px;
-	font-size:15px;
-	/* font-family: 'Rix대학일기'; */
-}
-#login > ul > li{
-	list-style:none;
-	float:left;
-	padding:4px 8px; 
-}
-#login > ul > li a{
-	text-decoration:none;
-	color:black;
-}
-#menu{
-	width:100%;
-	height:56px;
-	background-color:blue;
-}
-#menu .menu2 {
-width:512px;
-height:100%;
-float:right;
-margin:0px 199px 0 0px;
-}
-#menu .menu2 > ul{
-	width:100%;
-	height:100%;
-	float:right;
-	font-size:20px;
-	/* font-family: 'Rix대학일기'; */
-}
-#menu .menu2 > ul > li{
-	list-style:none;
-	float:left;
-	padding:10px 16px;  
-}
 </style>
-<script type="text/javascript">
-$(function(){
-	$('#tabs').tabs();
-});
-
-</script>
 </head>
 <body>
-<header id="header">
-      <div id="login">
-      	<ul>
-      		<li><a href="#myModal" data-toggle="modal">로그인</a></li>
-      		<li><a href="#">회원가입</a></li>
-      		<li><a href="#">마이페이지</a></li>
-      	</ul>
-      </div>
-      <div id="menu">
-         <h1 class="logo"></h1>
-         <nav class="menu2">
-         	<ul>
-      		<li>소개</li>
-      		<li>신체</li>
-      		<li>견학지</li>
-      		<li>커뮤니티</li>
-      		<li>고객센터</li>
-      	</ul>
-         </nav>
-      </div>
-</header>
-<br>
-<br>
-<br>
+<div class="text-center">
+	<!-- Button HTML (to Trigger Modal) -->
+	<a href="#myModal" class="trigger-btn" data-toggle="modal">로그인</a>
+</div>
 
 <!-- Modal HTML -->
 <div id="myModal" class="modal fade">
@@ -235,13 +153,13 @@ $(function(){
 					<div class="form-group">
 						<button type="submit" class="btn btn-primary btn-block btn-lg">로그인</button>
 					</div>
-					<p class="hint-text"><a href="../member/find.jsp">아이디를 잊어버리셨나요?</a></p>
-					<p class="hint-text"><a href="../member/find.jsp">비밀번호를 잊어버리셨나요?</a></p>
+					<p class="hint-text"><a href="find.jsp">아이디를 잊어버리셨나요?</a></p>
+					<p class="hint-text"><a href="find.jsp">비밀번호를 잊어버리셨나요?</a></p>
 				</form>
 			</div>
-			<div class="modal-footer">아직 회원이 아니신가요? <a href="../member/accept.jsp">회원가입</a></div>
+			<div class="modal-footer">아직 회원이 아니신가요? <a href="accept.jsp">회원가입</a></div>
 		</div>
 	</div>
-</div>    
+</div>     
 </body>
 </html>
