@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-¤±¤¤¤·¤±¤¤
+	<h1>	
+				<strong>Á¦¸ñ ¹Ù</strong>
+			</h1>
 </body>
 </html>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<<<<<<< HEAD
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Insert title here</title>
@@ -183,8 +184,12 @@ $(function(){
 });
 
 </script>
+=======
+<title>Insert title here</title>
+>>>>>>> branch 'master' of https://github.com/ChildProjectTeam/ChildProject.git
 </head>
 <body>
+<<<<<<< HEAD
 <header id="header">
       <div id="login">
       	<ul>
@@ -243,5 +248,10 @@ $(function(){
 		</div>
 	</div>
 </div>    
+=======
+<h1>
+				<strong>메뉴</strong>
+			</h1>
+>>>>>>> branch 'master' of https://github.com/ChildProjectTeam/ChildProject.git
 </body>
 </html>
